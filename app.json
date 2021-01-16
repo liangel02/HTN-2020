@@ -1,0 +1,12 @@
+{
+  "name": "htn2020",
+  "displayName": "htn2020",
+  "expo": {
+    "name": "htn2020",
+    "slug": "htn2020",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
