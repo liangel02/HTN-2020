@@ -22,8 +22,8 @@ const LoginScreen = ({ navigation }) => {
             <TextInput placeholder="Password" placeholderColor="#c4c3cb" style={styles.loginFormTextInput} secureTextEntry={true}/>
             <Button
               buttonStyle={styles.loginButton}
-              onPress={() => this.onLoginPress()}
               title="Login"
+              onPress={() => navigation.navigate('Home')}
             />
             <Button
               buttonStyle={styles.fbLoginButton}
@@ -34,7 +34,7 @@ const LoginScreen = ({ navigation }) => {
             <Button
                 buttonStyle={styles.signupButton}
                 title = "Sign up for an account!"
-                onPress={() => navigation.navigate('Home')}
+                onPress={() => navigation.navigate('Signup')}
             />
           </View>
         </View>
