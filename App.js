@@ -6,6 +6,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomePage from './components/homepage.js';
 import 'react-native-gesture-handler';
+import SignUp from './components/signup.js';
+import StayIn from './components/stayin.js';
+import GoOut from './components/go.js';
 
 const Stack = createStackNavigator();
 
@@ -18,6 +21,18 @@ function App() {
         name="Home"
         component={HomePage}
         options={{ title: 'Welcome' }}
+      />
+      <Stack.Screen
+        name="Signup"
+        component={SignUp}
+      />
+      <Stack.Screen
+        name="Stay"
+        component={StayIn}
+      />
+      <Stack.Screen
+        name="Go"
+        component={GoOut}
       />
     </Stack.Navigator>
   </NavigationContainer>

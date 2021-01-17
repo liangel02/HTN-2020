@@ -45,4 +45,17 @@ fbLoginButton: {
   marginTop: 10,
   backgroundColor: 'transparent',
 },
+signupButton: {
+    height: 40,
+    marginTop: 10,
+    backgroundColor: '#3897f1',
+},
+optionButton: {
+    textAlign: "center",
+    backgroundColor: '#ffe4e1',
+    
+    padding: 15,
+    fontSize: 16,
+    margin: 4,
+}
 };
