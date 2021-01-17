@@ -56,8 +56,8 @@ loginButton: {
   backgroundColor: '#cce6ff',
   borderRadius: 10,
   height: 45,
-  marginTop: 10,
-  padding: 15,
+  marginTop: 5,
+  padding: 10,
 },
 fbLoginButton: {
   height: 45,
@@ -66,24 +66,21 @@ fbLoginButton: {
 },
 signupButton: {
     height: 45,
-    marginTop: 10,
+    marginTop: 5,
     borderRadius: 10,
     backgroundColor: '#cce6ff',
-    padding: 15,
+    padding: 10,
 },
 stayButton: {
     textAlign: "center",
     backgroundColor: '#ffe4e1',
-    
     padding: 15,
     fontSize: 16,
     margin: 6,
 },
-
 goButton: { 
   textAlign: "center",
   backgroundColor: '#ccccff',
-  
   padding: 15,
   fontSize: 16,
   margin: 6,
