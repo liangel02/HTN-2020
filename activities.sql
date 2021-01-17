@@ -34,7 +34,17 @@ INSERT INTO GoOut (StayActive, GetCreative, Foodie, GetCosy, GameNight, SupportL
 VALUES ('Dance Class', 'Painting Class', 'Wine & Cheese Tasting', "Movie Theatre", 'Fair', 'Go to a Fundraising Event', 'Hot Air Balloon Ride'); 
 
 INSERT INTO GoOut (StayActive, GetCreative, Foodie, GetCosy, GameNight, SupportLocal, WildCard)
-VALUES ('Goat Yoga', 'Make gift baskets for each other', 'Go to a Retro Restaurant', 'Drive-In Theatre', 'Laser Tag', 'Go thrifting', 'Go to a random concert'); 
+VALUES ('Goat Yoga', 'Make gift baskets for each other', 'Go to a Retro Restaurant', 'Drive-In Theatre', 'Laser Tag', 'Go thrifting', 'Go to a random concert');
+
+INSERT INTO GoOut (StayActive, GetCreative, Foodie, GetCosy, GameNight, SupportLocal, WildCard)
+VALUES ('Tree-top Trekking', 'Go to an improv class', 'Go to a local Cafe', 'Set up a Picnic', 'Mini Golf', 'Go to a local community event', 'Play a tourist in your hometown'); 
+
+INSERT INTO GoOut (StayActive, GetCreative, Foodie, GetCosy, GameNight, SupportLocal, WildCard)
+VALUES ('Aerial Silks', 'Go to an improv class', 'Go to a Casual Restaurant', 'Go to the beach', 'Go-Karting', 'Watch a local play/musical', 'Go antique hunting'); 
+
+INSERT INTO GoOut (StayActive, GetCreative, Foodie, GetCosy, GameNight, SupportLocal, WildCard)
+VALUES ('Bubble Soccer', 'Go to a Glass Blowing Class', 'Purchase your favourite snacks', 'Drive-In Theatre', 'Bowling', 'Explore small buisnesses nearby', 'Arrange a scavenger hunt'); 
+
 
 
 INSERT INTO StayHome (StayActive, GetCreative, Foodie, GetCosy, GameNight, WildCard)
@@ -48,3 +58,6 @@ VALUES ('Nerf Gun Fight', 'Make Shrinky Dinks', 'Make mug cakes', 'Build a fort'
 
 INSERT INTO StayHome (StayActive, GetCreative, Foodie, GetCosy, GameNight, WildCard)
 VALUES ('Backyard Camping', 'Learn to crochet', 'Decorate sugar cookies', 'Write love letters to each other', 'Play Card Games', 'Put together a puzzle'); 
+
+INSERT INTO StayHome (StayActive, GetCreative, Foodie, GetCosy, GameNight, WildCard)
+VALUES ('Backyard Camping', 'Make candles together', 'Invent a new recipe', 'Cuddle together', 'Play Ping Pong', 'Play Chess'); 
