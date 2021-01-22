@@ -7,7 +7,7 @@ import {Text} from 'react-native';
 const HomePage = ({ navigation }) => {
   return (
   <>
-  <Text style={styles.navigateText}>Do you want to</Text>
+  <Text style={styles.navigateText}>Do you want to...</Text>
     <Button
       buttonStyle={styles.stayButton}
       title = "Stay In"
